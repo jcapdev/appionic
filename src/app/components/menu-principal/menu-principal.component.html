@@ -1,0 +1,24 @@
+<ion-menu side="start" menuId="menuPrincipal" contentId="main">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu Principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+
+      <ion-menu-toggle auto-hide="true">
+
+        <ion-item [routerLink]="['incidencias']">
+          <ion-icon color="primary" slot="start" name="folder-open-outline"></ion-icon>
+            Incidencia</ion-item>
+
+          <ion-item [routerLink]="['novedades']">
+          <ion-icon color="primary" slot="start" name="folder-open-outline"></ion-icon>
+            Novedades</ion-item>
+
+      </ion-menu-toggle>
+
+    </ion-list>
+  </ion-content>
+</ion-menu>

@@ -1,0 +1,7 @@
+{
+  "name": "crs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

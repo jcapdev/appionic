@@ -1,0 +1,24 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Login</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content [formGroup]="formAuth">
+   
+    <ion-item>
+      <img src="assets/logo.png">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input formControlName="password" name="password" type="password"></ion-input>
+    </ion-item>
+
+    <ion-button
+       (click)="iniciarSesion()"
+       (click)="AlertButton()"
+       expand="block"
+       fill="outline"
+       color="success">
+       Iniciar Sesion
+    </ion-button>
+
+  </ion-card-content>
+</ion-card>
